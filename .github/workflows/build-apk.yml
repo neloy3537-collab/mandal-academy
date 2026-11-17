@@ -18,8 +18,9 @@ jobs:
         with:
           gradle-version: '8.7'
       - name: Build debug APK
+        working-directory: mandal-academy-android
         run: gradle assembleDebug --no-daemon
       - uses: actions/upload-artifact@v4
         with:
           name: Mandal-Academy-apk
-          path: app/build/outputs/apk/debug/app-debug.apk
+          path: mandal-academy-android/app/build/outputs/apk/debug/app-debug.apk
