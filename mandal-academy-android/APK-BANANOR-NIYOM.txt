@@ -1,0 +1,25 @@
+MANDAL ACADEMY - ANDROID APK BANANOR NIYOM
+(Android 10 ba tar upore chole)
+
+ROASTA 1: Android Studio diye (shobcheye shohoj)
+ 1. Android Studio install koro (developer.android.com/studio).
+ 2. File > Open > ei folder (mandal-academy-android) select koro.
+ 3. Prothombar Gradle sync hote internet lagbe, kichukkhon wait koro.
+ 4. Menu: Build > Build Bundle(s) / APK(s) > Build APK(s).
+ 5. Sesh hole "locate" a click koro. File ta:
+    app/build/outputs/apk/debug/app-debug.apk
+ 6. Ei APK phone e pathiye install koro (Unknown sources allow korte hobe).
+
+ROASTA 2: GitHub diye (PC te kichu install korte hobe na)
+ 1. github.com e ekta free repository banao.
+ 2. Ei folder er shob file (.github folder shoho) upload koro.
+ 3. Actions tab > "Build APK" > Run workflow.
+ 4. Sesh hole oi run er Artifacts theke Mandal-Academy-apk download koro.
+
+BOARD BODLATE CHAILE:
+ app/src/main/assets/index.html bodlao, abar build koro.
+
+NOTE:
+ - PDF/PPT/Word insert korte internet lagte pare (CDN library).
+ - PDF export korle file Downloads folder e save hoy.
+ - Fullscreen shobshomoy on thake, Fullscreen button er kaj nai.
